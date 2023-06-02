@@ -8,8 +8,8 @@ WORKDIR /app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install -f
-RUN npm rebuild bcrypt --build-from-source
+RUN npm install
+#RUN npm rebuild bcrypt --build-from-source
 # If you are building your code for production
 # RUN npm ci --only=production
 
