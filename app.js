@@ -13,7 +13,7 @@ const Model = require('./Models')
 global.globalVarConfig = {};
 
 let serverObject = {
-  port: Config.dbConfig.config.PORT,
+  port: 8000,
   host:'localhost',
   routes: {
     cors: true,
